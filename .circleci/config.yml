@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   test:
     docker:
-    - image: cimg/base:2023.03
+    - image: 196855345466.dkr.ecr.us-east-1.amazonaws.com/circleci-config:1.2.1
     steps:
     - checkout
     - run: echo "this is the test job"
